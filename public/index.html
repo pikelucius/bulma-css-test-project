@@ -1,0 +1,210 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peters Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar has-shadow is-white">
+      <!-- Logo / brand -->
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <img src="./peters-shop.png" style="max-height: 48px" />
+        </a>
+        <div class="navbar-burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="navbar-menu" id="nav-links">
+        <div class="navbar-end">
+          <a class="navbar-item">Mitt konto</a>
+          <a class="navbar-item">Varukorg(0)</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- breadcumbs -->
+    <div class="section pt-4 pb-0">
+      <nav class="breadcrumb has-arrow-separator">
+        <ul class="container">
+          <li><a class="has-text-grey">Peter</a></li>
+          <li><a class="has-text-grey">Shop</a></li>
+          <li class="is-active"><a>Potatis</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- product info -->
+    <div class="section">
+      <div class="container">
+        <div class="columns is-vcentered is-multiline">
+          <div class="column is-5-desktop is-6-tablet">
+            <h1 class="is-size-1-desktop title">Potatis</h1>
+            <h2 class="is-size-3-desktop subtitle">
+              Färsk potatis ifrån skånska slätten.
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
+              unde obcaecati impedit non quisquam tempore deserunt voluptas
+              nobis, dolor quos fugit, tenetur quo asperiores hic laudantium
+              nulla iusto nostrum at?
+            </p>
+          </div>
+
+          <div class="column is-4-desktop has-text-centered is-6-tablet">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi2.wp.com%2Ftraningslara.se%2Fwp-content%2Fuploads%2F2013%2F04%2Fpotatis.nyttigt1.jpg%3Ffit%3D850%252C448%26ssl%3D1&f=1&nofb=1"
+              alt="potatis"
+            />
+          </div>
+
+          <div class="column is-3-desktop is-12-tablet">
+            <div class="is-size-4 mb-4">10.95 kr/kg</div>
+            <p class="mb-4">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
+              magni.
+            </p>
+            <button class="button is-primary is-rounded">Köp</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="columns is-8-variable">
+          <div class="column" is-7-tablet>
+            <!-- tabbed content -->
+            <div class="tabs is-boxed">
+              <ul>
+                <li class="is-active" data-target="product-details">
+                  <a>Produkt detaljer</a>
+                </li>
+                <li class="" data-target="delivery-information">
+                  <a>Transporter</a>
+                </li>
+              </ul>
+            </div>
+            <div class="px-2" id="tab-content">
+              <div id="product-details">
+                <h3 class="is-size-5 title">Produkt detaljer</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos
+                  autem debitis aspernatur provident. Temporibus, sapiente
+                  incidunt tenetur doloribus eveniet pariatur nisi quaerat,
+                  consequatur commodi iure ullam numquam, est molestiae!
+                  Eligendi.
+                </p>
+              </div>
+              <div id="delivery-information" class="is-hidden">
+                <h3 class="is-size-5 title">Transporter</h3>
+                <p>
+                  incidunt tenetur doloribus eveniet pariatur nisi quaerat,
+                  consequatur commodi iure ullam numquam, est molestiae!
+                  Eligendi. Lorem ipsum dolor sit, amet consectetur adipisicing
+                  elit. Eos autem debitis aspernatur provident. Temporibus,
+                  sapiente
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column" is-5-tablet>
+            <!-- message box -->
+            <div class="message">
+              <div class="message-header">
+                Samla poäng på dina varor i Peters shop club
+              </div>
+              <div class="message-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, perferendis dicta iusto culpa quis minus blanditiis
+                veniam deserunt necessitatibus assumenda magni enim excepturi
+                amet nemo odio. Eos neque eveniet eius.
+                <p></p>
+                <div class="has-text-centered mt-4">
+                  <button class="button">Registrera konto</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="section is-hidden-mobil">
+        <div class="container">
+            <h3 class="title has-text-centered is-size-4">Relaterade Produkter</h3>
+            <div class="columns mt-5 is-8 is-variable is-centered ">
+                
+                <!-- Card 1 -->
+
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img style="height: 100px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.interactives.dk%2Fcarots_15_2006_peter_kam--IcraXhWDf_Z8wch_QGzig.jpg%3Fauto%3Dcompress%26ch%3DWidth%252CDPR%26rect%3D0%252C43%252C1500%252C1038&f=1&nofb=1" alt="morötter">
+                        </div>
+                        <div class="card-content has-text-centered">
+                            <p>12.95 kr/kg</p>
+                            <p class="title is-size-5">Morot</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a href="#" class="has-text-grey">Visa</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img style="height: 100px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.linnesmathus.se%2F386-large_default%2Fkalrot-ekokrav-fa-g011-010.jpg&f=1&nofb=1" alt="kolrot">
+                        </div>
+                        <div class="card-content has-text-centered">
+                            <p>18.95 kr/kg</p>
+                            <p class="title is-size-5">Kålrot</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a href="#" class="has-text-grey">Visa</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img  style="height: 100px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn1.cdnme.se%2F4618866%2F8-3%2Flok_rod_eko_500g_mathem_5a1d4e6eddf2b34cdfdabb3a.jpg&f=1&nofb=1" alt="Rödlök">
+                        </div>
+                        <div class="card-content has-text-centered">
+                            <p>8.95 kr/kg</p>
+                            <p class="title is-size-5">Rödlök</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a href="#" class="has-text-grey">Visa</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="sandbox.js"></script>
+  </body>
+</html>
